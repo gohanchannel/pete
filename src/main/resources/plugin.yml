@@ -1,0 +1,11 @@
+name: Aooni
+main: com.github.gohanchannel.pete
+version: 0.0.1
+commands:
+  pete:
+    usage:  /<command>
+    permission: pete.command
+    
+permissions:
+  pete.command:
+default: op
