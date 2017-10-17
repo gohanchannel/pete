@@ -1,10 +1,12 @@
 name: Aooni
-main: com.github.gohanchannel.pete
+main: com.github.gohanchannel.pete.Command
 version: 0.0.1
 commands:
   pete:
-    usage:  /<command>
+    description: 青鬼選別用コマンド
+    usage:  /<command> wp
     permission: pete.command
+    permission-message: You has no permission!
     
 permissions:
   pete.command:
